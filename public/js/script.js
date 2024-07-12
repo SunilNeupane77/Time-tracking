@@ -19,7 +19,7 @@ if (navigator.geolocation) {
   );
 }
 L.map("map").setView([0, 0], 10);
-L.titlelayer("https://{s}.tile.opemstreetmap.org/{z}{x}{y}.png", {
+L.titlelayer("https://{s}.tile.openstreetmap.org/{z}{x}{y}.png", {
   attribution: "Openstreetmap",
 }).addTo(map);
 
